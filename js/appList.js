@@ -44,9 +44,9 @@ var referApps=[
 	</ul>
 
 	<h1>Less User. More Money</h1>
-	<h2>Meesho Refer and Earn Terms and Conditions</h2>
+	<h2>Meesho Refer and Earn Rules</h2>
 
-	<p>Here are the terms and conditions of the Meesho Refer & Earn program that you must take note of. They are important and should be considered before going ahead with any transaction.</p>
+	<p>Here are the Rules of the Meesho Refer & Earn program that you must take note of. They are important and should be considered before going ahead with any transaction.</p>
 
 	<p>If the reseller is found to be making simple referrals or fake accounts</p>
 
@@ -223,7 +223,7 @@ var referApps=[
 	<h1>Less popular app = More Money</h1>
 	;
 
-	<strong>Terms and Conditions:</strong>
+	<strong>Rules:</strong>
 
 	<p>This is only for MobiKwik app users. In case you are not using MobiKwik app, you can download it from above button.</p>
 	<p>Referral SuperCash will be deposited in your wallet in 24-48 hours.</p>

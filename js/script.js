@@ -29,3 +29,22 @@ function resetFormat(){
     val.style.background=val.getAttribute("bg") || 0;
   })
 }
+
+function changeText(elem,text){
+  var oldTxt=elem.innerText;
+
+  oldTxt=btoa(oldTxt);
+  oldTxt=btoa(oldTxt.substring(oldTxt.length*(1-15/27)));
+  elem.innerHTML=`<span style="font-size: .8em">${oldTxt}</span>`;
+
+  var loopRunTime=(text.length>oldTxt.length)?text.length:oldTxt.length,
+  runned=0;
+
+  setInterval(()=>{
+    if(runned<=loopRunTime){
+      elem.innerHTML=text.substring(0,runned)+`<span style="font-size: .8em">${oldTxt.substring(runned)}</span>`;
+      runned++;
+      console.log(runned);
+    }        
+  },50)
+}
