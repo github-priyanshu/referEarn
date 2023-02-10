@@ -25,7 +25,7 @@ function showApp(list){
 		  <div class="desc" style="">
 		        ${val[7]}
 		  </div>
-		  <button class="noBtn flex w100p">See More <span class="flex ico" ico="down"></span></button>
+		  <button class="noBtn flex w100p" onclick="window.open('${val[2]}')">See More <span class="flex ico" ico="down"></span></button>
 		</div>
 
 		</div>`;

@@ -20,7 +20,7 @@ var referApps=[
 	/*====================================== Meesho ====================================*/
 	[
 	'Meesho',
-	'https://play-lh.googleusercontent.com/3yi7Fo-OtJUZ7nAlB8WB0v1WTOdz76Z1kqvuuubhNlHzU9jhP97TnI-6eVThWZMV31A=s100',
+	'https://play-lh.googleusercontent.com/3yi7Fo-OtJUZ7nAlB8WB0v1WTOdz76Z1kqvuuubhNlHzU9jhP97TnI-6eVThWZMV31A=s150',
 	'https://meesho.com/invite/LNJCB7395459',
 	'',
 	'25% OFF + ₹350',
@@ -77,7 +77,7 @@ var referApps=[
 	/*====================================== Paytm ====================================*/
 	[
 	'Paytm',
-	'https://play-lh.googleusercontent.com/6_Qan3RBgpJUj0C2ct4l0rKKVdiJgF6vy0ctfWyQ7aN0lBjs78M-1cQUONQSVeo2jfs=s100',
+	'https://play-lh.googleusercontent.com/6_Qan3RBgpJUj0C2ct4l0rKKVdiJgF6vy0ctfWyQ7aN0lBjs78M-1cQUONQSVeo2jfs=s150',
 	'https://p.paytm.me/xCTH/jq8uuoj0',
 	'aiplayer',
 	'₹50 + ₹100',
@@ -127,7 +127,7 @@ var referApps=[
 	/*====================================== Snapdeal ====================================*/
 	[
 	'Snapdeal',
-	'https://play-lh.googleusercontent.com/mus3LmDNKHikDOJHIoyaOuYO_K_TgasrHKKKWLQCvksn6vRN32rNN9PYhwptrFWwmnc=s100',
+	'https://play-lh.googleusercontent.com/mus3LmDNKHikDOJHIoyaOuYO_K_TgasrHKKKWLQCvksn6vRN32rNN9PYhwptrFWwmnc=s150',
 	'https://snpdl.in/refer?code=PRIY9948UQ&utm_source=RefA1',
 	'PRIY9948UQ',
 	'₹125 + ₹125',
@@ -169,7 +169,7 @@ var referApps=[
 	/*====================================== CashKaro ====================================*/
 	[
 	'CashKaro',
-	'https://play-lh.googleusercontent.com/Mu6eDEbbDf2d4f_rVIPkx9eG5QNfBU0eaCcNQgzuSj5GH3FQ8NxeRJjTx4BQl5SG_4w=s100',
+	'https://play-lh.googleusercontent.com/Mu6eDEbbDf2d4f_rVIPkx9eG5QNfBU0eaCcNQgzuSj5GH3FQ8NxeRJjTx4BQl5SG_4w=s150',
 	'https://play.google.com/store/apps/details?id=com.cashkaro&referrer=r%3D19585273%26refname%3DPriyanshu Kumar%26utm_source%3Dapp_referral',
 	'CK60',
 	'₹60 + Lifetime 10% Earning',
@@ -199,7 +199,7 @@ var referApps=[
 	/*====================================== MobiKwik ====================================
 	[
 	'MobiKwik',
-	'https://play-lh.googleusercontent.com/WvOdfNjs3hNB8I3NiJyeCfB90mnra9GmsBUK60RuD92xOBgHctVGbMvBGJeOYbKAg5I=s100',
+	'https://play-lh.googleusercontent.com/WvOdfNjs3hNB8I3NiJyeCfB90mnra9GmsBUK60RuD92xOBgHctVGbMvBGJeOYbKAg5I=s150',
 	'https://p.paytm.me/xCTH/jq8uuoj0',//change here
 	'',
 	'₹25 + ₹75',
@@ -240,7 +240,7 @@ var referApps=[
 	/*====================================== Kuku FM ====================================*/
 	[
 	'Kuku FM',
-	'https://play-lh.googleusercontent.com/ZT-JBZI6eq4FbFk8OqIAxx7URFvOCklsv82m3ufi3FeaFnaWwijTp2IfdNGESnEAMQ=s100',
+	'https://play-lh.googleusercontent.com/ZT-JBZI6eq4FbFk8OqIAxx7URFvOCklsv82m3ufi3FeaFnaWwijTp2IfdNGESnEAMQ=s150',
 	'https://kukufm.page.link/bbRXNCb39YNmFEvT8',
 	'',
 	'Flat ₹200 OFF + ₹100',
