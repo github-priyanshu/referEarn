@@ -15,17 +15,18 @@ document.body.insertAdjacentHTML("beforeend",`
   border-bottom: none;
   text-align: center;
   transition: all .5s;
+  box-shadow:0 -3px 8px #0003;
 }
 .foot.active{
   bottom: -0px;
 }
 .foot .lineBx{
-  background: #ff0;
+  background: #fff;
   color: #000;
-  border-radius: 4px;
+  border-radius: 7px;
   padding: 10px;
   width: 100%;
-  max-width: 300px;
+  max-width: 350px;
   margin-bottom: 10px;
 }
   </style>
