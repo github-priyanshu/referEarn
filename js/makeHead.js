@@ -44,25 +44,24 @@ document.body.insertAdjacentHTML('afterbegin',`
         <h1 ff="Offside">MoneY NOW</h1>
       </div>
       <div class="search flex">
-        <input type="text" placeholder="Search...!!!" id='search'>
+        <input type="text" placeholder="Search...!!!" id='search' >
         <div class="lineMargin" w='1px' h='30px' bg='#aaa'></div>
         <div fill="#555" ico="search" class="ico flex"></div>
       </div>
     </div>
     <div class="fr down flex ">
-      <div class="ini">/...</div><strong ff="Barriecito" id="moto">This is my moto line</strong>
+      <div class="ini">/...</div><strong ff="'Syne Mono', monospace" id="moto">This is my moto line</strong>
     </div>
   </div>
 `);
 var moto=op("#moto");
 
-var motoLine=["Earn Early & Start Today","Money Now :  Refer Now - Earn Now","Bad apps are not here.",]
+var motoLine=["Earn Early & Start Today","Money Now :  Refer Now - Earn Now","Only Valid Apps Are HEre.",]
 
 var moton=0;
 function changeMoto(){
   changeText(moto,motoLine[moton])
   moton=++moton%motoLine.length;
-  log(moton)
 }
 changeMoto();
 setInterval(changeMoto,5000);

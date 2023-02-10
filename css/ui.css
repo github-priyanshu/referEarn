@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Offside&family=Poppins&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Offside&family=Poppins&family=Syne+Mono&family=Ubuntu:wght@500&display=swap');
 
 body{
 	background: #fff;
@@ -63,4 +63,34 @@ body{
 	overflow: hidden;
 	transition: all .5s;
 	z-index: 1;
+}
+
+
+/*  FOOT STYLING */
+.foot{
+	position: fixed;
+	left: 0;
+	bottom: -200px;
+	width: 100%;
+	padding: 20px 10px;
+	background: #000;
+	color: #fff;
+	z-index: 1;
+	border-radius: 10px 10px 0 0 ;
+	border: 3px solid #fff;
+	border-bottom: none;
+	text-align: center;
+	transition: all .5s;
+}
+.foot.active{
+	bottom: -0px;
+}
+.foot .lineBx{
+	background: #ff0;
+	color: #000;
+	border-radius: 4px;
+	padding: 10px;
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 10px;
 }

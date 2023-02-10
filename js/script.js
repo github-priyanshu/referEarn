@@ -33,8 +33,7 @@ function resetFormat(){
 function changeText(elem,text){
   var oldTxt=elem.innerText;
 
-  oldTxt=btoa(oldTxt);
-  oldTxt=btoa(oldTxt.substring(oldTxt.length*(1-15/27)));
+  oldTxt=btoa(oldTxt.substring(oldTxt.length*(1-15/27)) || '1'.padStart(oldTxt.length/2));
   elem.innerHTML=`<span style="font-size: .8em">${oldTxt}</span>`;
 
   var loopRunTime=(text.length>oldTxt.length)?text.length:oldTxt.length,
@@ -44,7 +43,6 @@ function changeText(elem,text){
     if(runned<=loopRunTime){
       elem.innerHTML=text.substring(0,runned)+`<span style="font-size: .8em">${oldTxt.substring(runned)}</span>`;
       runned++;
-      console.log(runned);
     }        
   },50)
 }
