@@ -321,7 +321,7 @@ var referApps=[
 	/*====================================== EarnKaro ====================================*/
 	[
 	'EarnKaro : Ratan Tata',
-	'https://play-lh.googleusercontent.com/aFjyP5VFedNrohp7C2rZBHXvwPvyRwMIj8G80h5FA9GcmYVGSXncj6kCQOXN9TJ-Ww=s64',
+	'https://play-lh.googleusercontent.com/aFjyP5VFedNrohp7C2rZBHXvwPvyRwMIj8G80h5FA9GcmYVGSXncj6kCQOXN9TJ-Ww=s150',
 	'https://play.google.com/store/apps/details?id=com.earnkaro&referrer=r%3D1436639%26refname%3DPriyanshu%20Kumar%26utm_source%3Dapp_referral',
 	'',
 	'₹0 + Lifetime 10% Earning',

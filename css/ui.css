@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Offside&family=Poppins&family=Syne+Mono&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Offside&family=Poppins&family=Syne+Mono&family=Ubuntu:wght@500&display=swap');
 
 body{
 	background: #fff;
@@ -10,21 +10,18 @@ body{
 }
 .verifiedBox::before {
 	position: absolute;
-	right: -10px;
+	right: -20%;
 	top: 0;
-	width: 110%;
-	height: 100%;
+	width: 140%;
+	height: 140%;
 	content: "";
 	background: #fff;
 	transform: skew(20deg);
-	animation: shineSho 3s ease forwards 2s; 
+	animation: shineSho 3s ease forwards 3s; 
 	z-index: 1;
-	filter: blur(4px);
+	filter: blur(3px);
 }
 @keyframes shineSho{
-	0%{
-		width: 100%;
-	}
   100%{
 		width: 0%;
 	}
