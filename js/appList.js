@@ -80,7 +80,7 @@ var referApps=[
 	'https://play-lh.googleusercontent.com/6_Qan3RBgpJUj0C2ct4l0rKKVdiJgF6vy0ctfWyQ7aN0lBjs78M-1cQUONQSVeo2jfs=s150',
 	'https://p.paytm.me/xCTH/jq8uuoj0',
 	'aiplayer',
-	'₹50 + ₹100',
+	'₹50 + ₹151',
 	[bank],
 	['scrShot','scrShot'],
 	`<ul>
@@ -196,6 +196,42 @@ var referApps=[
 
 
 
+	/*====================================== RozDhan ====================================*/
+	[
+	'RozDhan',
+	'https://play-lh.googleusercontent.com/iK0KR3gsQqMZOwc4-ImTvNcu-q_WqO_Lr4pmLjco9WbFJ1BEVurhiDliHxiTlEEGc7sf=s150',
+	'https://play.google.com/store/apps/details?id=com.cashkaro&referrer=r%3D19585273%26refname%3DPriyanshu%20Kumar%26utm_source%3Dapp_referral',
+	'',
+	'₹55 - ₹100 + ₹6',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Install the app from <strong>above button</strong>.</li>
+		<li>You get ₹55.</li>
+		<li>Now just collect energy points.</li>
+		<li>And withdraw your money.</li>
+		<li>Min withdrawal = ₹300</li>
+	</ul>
+
+	<h2>One Refer = ₹6.</h2>
+
+	<ul>
+		<li>Tell any friend to download RozDhan.</li>
+		<li>Make sure that you download from your link.</li>
+		<li>Make a new account.</li>
+		<li>₹6 will be added to your account.</li>
+		<li>And your friend also get ₹25</li>
+	</ul>
+
+	<strong>How to Refer and Earn on RozDhan?</strong>
+
+	You can get big cash rewards by inviting friends on Roz Dhan. On inviting your first friend you get ₹12 as soon as your friend logs in. On completing "Instant Cash Tasks", users can earn money and withdraw money immediately to their Paytm accounts. 
+`,
+	],
+
+
+
+
 	/*====================================== MobiKwik ====================================
 	[
 	'MobiKwik',
@@ -237,6 +273,84 @@ var referApps=[
 
 
 
+
+
+	/*====================================== PhonePe ====================================*/
+	[
+	'PhonePe',
+	'https://play-lh.googleusercontent.com/6iyA2zVz5PyyMjK5SIxdUhrb7oh9cYVXJ93q6DZkmx07Er1o90PXYeo6mzL4VC2Gj9s=s150',
+	'https://phon.pe/727wkmf6',
+	'',
+	'₹10 + ₹100',
+	[bank],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Install the app from <strong>above button</strong>.</li>
+		<li>Just pay ₹1 to any UPI id.</li>
+		<li>Your cashback of ₹10 will be credited you bank.</li>
+	</ul>
+
+	<h2>This is not But...!!</h2>
+
+	<ul>
+		<li>Just take the phone of any friend.</li>
+		<li>Install 'PhonePe' with your referral link.</li>
+		<li>Make account.</li>
+		<li>Pay minimum of 1.</li>
+		<li>You get ₹100.</li>
+	</ul>
+	<h1>Less User. More Money</h1>
+	<ul>
+		<p><b>Offer Details</b></p>
+		<li>Referrer will receive ₹100 cashback when the referred user adds their bank account through UPI on PhonePe for the first time</li>
+		<li>A referred friend is a user who has installed the PhonePe app after clicking on the referral link of the referrer</li>
+		<li>Referrer will receive cashback for the first five successful referrals only</li>
+		<li>First five referrals of a referrer will receive ₹100 cashback when they link their bank account for the first time on PhonePe through UPI</li>
+		<li>First five referrals will be counted from the start of the offer period </li>
+		
+		<p><b>Offer Start Time </b></p>
+		<li>15:00 hrs on 23rd December, 2017</li>
+	</ul>
+	`,
+	],
+
+
+
+
+
+	/*====================================== EarnKaro ====================================*/
+	[
+	'EarnKaro : Ratan Tata',
+	'https://play-lh.googleusercontent.com/aFjyP5VFedNrohp7C2rZBHXvwPvyRwMIj8G80h5FA9GcmYVGSXncj6kCQOXN9TJ-Ww=s64',
+	'https://play.google.com/store/apps/details?id=com.earnkaro&referrer=r%3D1436639%26refname%3DPriyanshu%20Kumar%26utm_source%3Dapp_referral',
+	'',
+	'₹0 + Lifetime 10% Earning',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Install the app from <strong>above button</strong>.</li>
+		<li>And start your affiliate bussiness now.</li>
+		<li>More than 1,500 shopping sites like Amazon, Myntra, Shopsy, Flipkart, Snapdeal etc.</li>
+		<li>Every time you get money (Direct withdraw or shop with).</li>
+		<li>Min withdrawal = ₹10</li>
+	</ul>
+
+	<h2>Refer this app and earn more.</h2>
+	<p>To simple earn 10% of the earing of the person you are sharing.</p>
+	<strong>Join EarnKaro’s Refer and Earn Program</strong>
+	<p>You can easily join EarnKaro’s Refer and Earn Program by simply creating an account on EarnKaro. Once you have created your account on EarnKaro you can go to My Profile > Refer and Earn. There you can find your referral link. You can share this link via email or social media platforms like Whatsapp, Facebook, and Telegram. You can also copy the link and share it on other platforms.</p>
+	<p>Why Should You Join EarnKaro’s Refer and Earn Program?</p>
+	<p>Starting a reselling business with no money: You may start a reselling business online for free. To earn money from the EarnKaro platform, you simply need to share a link.</p>
+	<p>Join the Top Partners affiliate program: You can quickly join affiliate programs from our top partners by just signing up on EarnKaro for free. Also, there is no documentation require become an affiliate on EarnKaro.</p>
+	<p>Earn Money by Refer and Earn program: Simply join EarnKaro and invite your friends and family by sharing your referral code or link and earn 10% of their confirmed profit for their whole life.</p>
+	<p>Brand value and customer service: You may require assistance with selling or other matters. EarnKaro offers the best customer service by phone to address your problem as quickly as possible. EarnKaro is the most popular and successful app in this category. As a result, it is reliable and simple to promote.</p>
+	<p>How Much can You Earn Through EarnKaro’s Refer and Earn Program?</p>
+	<p>The commission rate of EarnKaro’s Refer and Earn Program is 10% of your network’s earnings. For example, if a friend you have referred to EarnKaro earns Rs. 100 Profit on their transaction, you will get 10% of Rs. 100 as your Referral Profit, i.e., Rs. 10.</p>
+`,
+	],
+
+
+
 	/*====================================== Kuku FM ====================================*/
 	[
 	'Kuku FM',
@@ -270,3 +384,7 @@ var referApps=[
 	],
 
 ]
+
+var category={
+	teenager: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro"],
+}
