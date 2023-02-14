@@ -1,10 +1,12 @@
+var expandedHeader=true;
+
 document.body.insertAdjacentHTML('afterbegin',`
   <style>
     /*head ui css*/
     .head {
       width: 100%;
       padding: 10px 20px 0;
-      background: #222;
+      background: #001;
       color: #fff;
       border-radius: 0 0 20px 20px;
       box-shadow: 0 1px 7px #0004;
@@ -49,8 +51,9 @@ document.body.insertAdjacentHTML('afterbegin',`
         <div fill="#555" ico="search" class="ico flex"></div>
       </div>
     </div>
-    <div class="fr down flex ">
-      <div class="ini">/...</div><strong ff="'Syne Mono', monospace" id="moto">This is my moto line</strong>
+    <div class="fr down flex c">
+      ${getExpandedHeader()}
+      <div class="flex"><div class="ini">/...</div><strong ff="'Syne Mono', monospace" id="moto">This is my moto line</strong></div>
     </div>
   </div>
 `);
@@ -65,3 +68,70 @@ function changeMoto(){
 }
 changeMoto();
 setInterval(changeMoto,5000);
+
+
+function getExpandedHeader(){
+  var banHtml="",
+  banWidth=op('body').offsetWidth-50,
+  banHeight=banWidth*41/140;
+  log(banWidth,banHeight)
+
+  for(let val in category){
+    log(val);
+    banHtml+=`
+        <div class="banner flex">
+          <img src="img/banner/${val}.png" alt="${val} banner">
+        </div>`
+  };
+
+  return `
+<style>
+.bannerBx::-moz-scrollbar {
+    width: 0;
+    height: 0;
+}
+.bannerBx{
+  width: ${banWidth}px;
+  aspect-ratio: 140/41;
+  border-radius: 10px;
+  overflow-x: auto;
+  justify-content: flex-start;
+  scrollbar-width: none;
+
+}
+.bannerBx .banner img{
+  height: ${banHeight- 20}px;
+  aspect-ratio: 140/51;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.bannerParent::after,
+.bannerParent::before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  z-index: 1;
+  background: #fff;
+  left: 0;
+  top: 0;
+  background: linear-gradient(90deg,#222,#0000);
+  background: #0099ff;
+  border-radius: 4px;
+  box-shadow: 0 0 30px #09f,0 0 30px #09f,0 0 30px #09f;
+}
+
+.bannerParent::after{
+  left: calc(100%);
+/*  background: linear-gradient(-90deg,#222,#0000); */
+}
+</style>
+
+<div class="bannerParent" style="width: max-content; height:max-content; margin-bottom: 20px;">
+  <div class="bannerBx flex">
+    ${banHtml}
+  </div>
+</div>`
+}

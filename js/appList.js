@@ -386,5 +386,9 @@ var referApps=[
 ]
 
 var category={
-	teenager: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro"],
+	teenager_special: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro"],
+	shopping: ['Meesho',"Snapdeal","CashKaro","EarnKaro"],
+	cryptocurrency:['WazirX','CoinSwitch',"CoinDCX"],
+	investment:["Angel One","WazirX"],
+	special_earning: ['drop.download','sdhareus.io','propellar ads','a-ads','addsterra'],
 }

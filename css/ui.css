@@ -116,3 +116,25 @@ body{
 	max-width: 300px;
 	margin-bottom: 10px;
 }
+
+.bannerParent::after,
+.bannerParent::before{
+	content: '';
+	position: absolute;
+	width: 4px;
+	height: 100%;
+	z-index: 1;
+	background: #fff;
+	left: 0;
+	top: 0;
+	background: linear-gradient(90deg,#222,#0000);
+	background: #0099ff;
+	border-radius: 4px;
+	box-shadow: 0 0 30px #09f,0 0 30px #09f,0 0 30px #09f;
+}
+
+.bannerParent::after{
+	left: calc(100%);
+/* 	background: linear-gradient(-90deg,#222,#0000); */
+}
+
