@@ -72,8 +72,9 @@ setInterval(changeMoto,5000);
 
 function getExpandedHeader(){
   var banHtml="",
-  banWidth=op('body').offsetWidth-50,
-  banHeight=banWidth*41/140;
+  banWidth=op('body').offsetWidth-50;
+  banWidth=banWidth>600?600:banWidth;
+  var banHeight=banWidth*60/140;
   log(banWidth,banHeight)
 
   for(let val in category){
@@ -92,7 +93,7 @@ function getExpandedHeader(){
 }
 .bannerBx{
   width: ${banWidth}px;
-  aspect-ratio: 140/41;
+  aspect-ratio: 140/60;
   border-radius: 10px;
   overflow-x: auto;
   justify-content: flex-start;
@@ -101,7 +102,7 @@ function getExpandedHeader(){
 }
 .bannerBx .banner img{
   height: ${banHeight- 20}px;
-  aspect-ratio: 140/51;
+  aspect-ratio: 140/70;
   object-fit: cover;
   border-radius: 10px;
   margin: 0 10px;
@@ -111,7 +112,7 @@ function getExpandedHeader(){
 .bannerParent::before{
   content: '';
   position: absolute;
-  width: 4px;
+  width: 3px;
   height: 100%;
   z-index: 1;
   background: #fff;
