@@ -318,6 +318,44 @@ var referApps=[
 
 
 
+	/*====================================== CoinSwitch ====================================*/
+	[
+	'CoinSwitch',
+	'https://play-lh.googleusercontent.com/NpGjw0yK9LHSh8z-7M9AHPMetrK0qaWjpjMzJwEOCSIVlv7pZ3wcU3s0uz6kES6NDqjT=s150',
+	'https://coinswitch.co/in/refer?tag=SsyJ3',
+	'',
+	'₹10 (BTC) + ₹400 (BTC)',
+	[bank,adhar,pan],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Install the app from <strong>above button</strong>.</li>
+		<li>Just make account.</li>
+		<li>Add do KYC.</li>
+		<li>Add your bank details.</li>
+		<li>You will get BitCoin of ₹10 invested.</li>
+	</ul>
+
+	<h2>If you have to earn lot more...</h2>
+
+	<ul>
+		<li>Tell your friend about cryptocurrency investment.</li>
+		<li>Install CoinSwitch app.</li>
+		<li>Make account.</li>
+		<li>When he adds the bank detail then you get ₹50 BitCoin.</li>
+		<li>Apply your refferal code like <aiplayer>.</li>
+		<li>You get ₹100.</li>
+	</ul>
+	<h1>Less User. More Money</h1>
+	;
+
+	<p>Get ₹50 BTC wen you friend completes Bank verification. Also, you'll earn ₹200 when the buy their first crypto worth more than ₹1000, of ₹350 when their first buy is worth more than ₹5000</p>
+`,
+	],
+
+
+
+
+
 	/*====================================== EarnKaro ====================================*/
 	[
 	'EarnKaro : Ratan Tata',
@@ -383,12 +421,185 @@ var referApps=[
 	`,
 	],
 
+
+
+
+	/*====================================== Propellar Ads ====================================*/
+	[
+	'MoneyTag - Web Monetize',
+	'https://play-lh.googleusercontent.com/VwLow4umwRYkSFduc3SjDLoU9vTaAcmTzsTKom5XITRRBWH7gCofiKynu1ZHRuuJpw=s150',
+	'https://monetag.com/?ref_id=mPgy',
+	'',
+	'Earn with ads + 5%',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Got to moneytag website from above link.</li>
+		<li>Make account without returning.</li>
+		<li>And you can monetize your website or mobile app without any eligibility.</li>
+		<li>They really give high CPM Ads with different ad format.</li>
+	</ul>
+
+	<h2>Now reffer and Earn</h2>
+
+	<ul>
+		<li>If any of your friend have website or app.</li>
+		<li>Recommend him moneytag.</li>
+		<li>Give your referral link to him.</li>
+		<li>Let him make account.</li>
+		<li>And just enjoy his 5% Earning lifetime.</li>
+		<li>You can invite as many users as you can.</li>
+	</ul>
+
+	`,
+	],
+
+
+
+	/*====================================== Adsterra ad-net ====================================*/
+	[
+	'Adsterra ad-net',
+	'https://play-lh.googleusercontent.com/PNxmddPBpgH0zLjNU8PuuspHpU9odxE26aDFTnp67tI6Oz6dyiRit03sT1i55OTF0IM=s150',
+	'https://publishers.adsterra.com/referral/Sa7E49FL8T',
+	'',
+	'Earn with ads + 5%',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Got to adsterra website from above link.</li>
+		<li>Make account without returning.</li>
+		<li>And you can monetize your website or mobile app without any eligibility.</li>
+		<li>They really give high CPM Ads with different ad format.</li>
+	</ul>
+
+	<h2>Now reffer and Earn</h2>
+
+	<ul>
+		<li>If any of your friend have website or app.</li>
+		<li>Recommend him adsterra.</li>
+		<li>Give your referral link to him.</li>
+		<li>Let him make account.</li>
+		<li>And just enjoy his 5% Earning lifetime.</li>
+		<li>You can invite as many users as you can.</li>
+	</ul>
+
+	`,
+	],
+
+
+
+	/*====================================== a-ads ====================================*/
+	[
+	'A-ADS Advertise & Publish',
+	'https://play-lh.googleusercontent.com/h5EuJMaAnhZFuL0ymD1BbOscn-D9es_gvNVFEhnKkaUjDeR4aM-oNhACJGuW39xxxMc=s150',
+	'https://a-ads.com?partner=2169766',
+	'',
+	'Earn with ads + 50%',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Got to the website click on the above button.</li>
+		<li>Make account without returning.</li>
+		<li>And you can monetize & advertise your content.</li>
+		<li>They really give high CPM Ads with banner ads.</li>
+	</ul>
+
+	<h2>Now reffer and Earn (50%) Amazing...!!</h2>
+
+	<ul>
+		<li>If any of your friend have website or app or they have to advertise their crypto content.</li>
+		<li>Recommend him a-ads.</li>
+		<li>Give your referral link to him.</li>
+		<li>Let him make account.</li>
+		<li>When he deposits money in a-ads then 50% of deposite is yours.</li>
+		<li>You can invite as many users as you can.</li>
+	</ul>
+	`,
+	],
+
+
+
+
+	/*====================================== Drop.Download ====================================*/
+	[
+	'Drop Download - File share Earn',
+	'https://drop.download/assets_drop/images/logo.svg',
+	'https://drop.download/free289868.html',
+	'',
+	'',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Got to drop download website from above link.</li>
+		<li>Make account without returning.</li>
+		<li>Upload your file.</li>
+		<li>Copy the link and share in your network.</li>
+		<li>When some one will download your file then you will get money.</li>
+	</ul>
+	<p>This is a file sharing network link google drive but pays you with each download</p>
+
+	<h2>Now reffer and Earn</h2>
+
+	<ul>
+		<li>Share your affiliate link.</li>
+		<li>When they go and make account with your link.</li>
+		<li>You will earn as there earning.</li>
+	</ul>
+	`,
+	],
+
+
+
+	/*====================================== Shareus ====================================*/
+	[
+	'Shareus - link share Earn',
+	'https://shareus.io/pub/share.png',
+	'https://shareus.io/pub/signup.html?id=NRCMV9OAt2fj2BHqZCOIIGgQKOd2',
+	'',
+	'Link share + 10%',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Got to Shareus website from above link.</li>
+		<li>Make account without returning.</li>
+		<li>Shorten your link.</li>
+		<li>Share that link in your network and you will start earning.</li>
+		<li>CPM : ₹500 (High)</li>
+	</ul>
+	<p>This is a link sharing network but pays you with each click.</p>
+
+	<h2>Now reffer and Earn</h2>
+
+	<ul>
+		<li>Share your affiliate link.</li>
+		<li>When they go and make account with your link.</li>
+		<li>You will earn 10% of there earning.</li>
+	</ul>
+	`,
+	],
+
 ]
 
 var category={
 	teenager_special: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro"],
 	shopping: ['Meesho',"Snapdeal","CashKaro","EarnKaro"],
-	cryptocurrency:['WazirX','CoinSwitch',"CoinDCX"],
-	investment:["Angel One","WazirX"],
-	special_earning: ['drop.download','sdhareus.io','propellar ads','a-ads','addsterra'],
+	cryptocurrency:['CoinSwitch'],
+	investment:[],
+	special_earning: ['Drop Download - File share Earn','Shareus','MoneyTag - Web Monetize','A-ADS','Adsterra ad-net'],
 }
+
+/*
+meesho
+paytm
+snapdeal cashkaro
+rozdhan
+phope
+earn karo
+kuku fm
+coinswitch kuber
+propellar ads
+a-ads
+addsterra
+drop.download
+shareus.io
+*/
