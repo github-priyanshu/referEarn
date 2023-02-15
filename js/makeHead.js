@@ -1,4 +1,5 @@
-var expandedHeader=true;
+var expandedHeader=true,
+bannerWidth,bannerImageWidth,banBox,catPage;
 
 document.body.insertAdjacentHTML('afterbegin',`
   <style>
@@ -9,7 +10,7 @@ document.body.insertAdjacentHTML('afterbegin',`
       background: #001;
       color: #fff;
       border-radius: 0 0 20px 20px;
-      box-shadow: 0 1px 7px #0004;
+      box-shadow: 0 1px 45px #0009;
       border: 3px solid #fff;
       border-top: none;
     }
@@ -43,7 +44,9 @@ document.body.insertAdjacentHTML('afterbegin',`
   <div class="head flex c" id="head">
     <div class="fr up w100p flex">
       <div class="logo">
-        <h1 ff="Offside">MoneY NOW</h1>
+        <a href="/" style="text-decoration: none; color: #fff;">
+          <h1 ff="Offside">MoneY NOW</h1>
+        </a>
       </div>
       <div class="search flex">
         <input type="text" placeholder="Search...!!!" id='search' >
@@ -72,16 +75,15 @@ setInterval(changeMoto,5000);
 
 function getExpandedHeader(){
   var banHtml="",
-  banWidth=op('body').offsetWidth-50;
-  banWidth=banWidth>600?600:banWidth;
-  var banHeight=banWidth*60/140;
-  log(banWidth,banHeight)
+  bannerWidth=op('body').offsetWidth-50;
+  bannerWidth=bannerWidth>600?600:bannerWidth;
+  var banHeight=bannerWidth*60/140;
+  bannerImageWidth=(banHeight-20)*2;
 
   for(let val in category){
-    log(val);
     banHtml+=`
         <div class="banner flex">
-          <img src="img/banner/${val}.png" alt="${val} banner">
+          <a href="category/${val}.html"><img src="img/banner/${val}.png" alt="${val} banner"></a>
         </div>`
   };
 
@@ -92,7 +94,7 @@ function getExpandedHeader(){
     height: 0;
 }
 .bannerBx{
-  width: ${banWidth}px;
+  width: ${bannerWidth}px;
   aspect-ratio: 140/60;
   border-radius: 10px;
   overflow-x: auto;
@@ -102,7 +104,7 @@ function getExpandedHeader(){
 }
 .bannerBx .banner img{
   height: ${banHeight- 20}px;
-  aspect-ratio: 140/70;
+  aspect-ratio: 2/1;
   object-fit: cover;
   border-radius: 10px;
   margin: 0 10px;
@@ -136,3 +138,21 @@ function getExpandedHeader(){
   </div>
 </div>`
 }
+
+// function scrollBanner() {
+  var url=document.URL.split('/');
+  catPage=url[url.length-1];
+  catPage=catPage?catPage:url[url.length-2];
+  catPage=catPage.replace(".html",'');
+  if(catPage!='index' && catPage){
+    banBox=op(".bannerBx");
+    bannerWidth=banBox.offsetWidth;
+    var tarElem=op(`.banner img[alt^='${catPage}']`).offsetParent.offsetParent;
+    var scrx=tarElem.offsetLeft-(banBox.offsetWidth - tarElem.offsetWidth)/2;
+
+    log(banBox.scrollTo(scrx,0));
+  }else{
+    catPage=null;
+  }
+// }
+// scrollBanner();

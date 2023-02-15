@@ -581,11 +581,11 @@ var referApps=[
 ]
 
 var category={
-	teenager_special: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro"],
-	shopping: ['Meesho',"Snapdeal","CashKaro","EarnKaro"],
+	teenager_special: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro : Ratan Tata"],
+	shopping: ['Meesho',"Snapdeal","CashKaro","EarnKaro : Ratan Tata"],
 	cryptocurrency:['CoinSwitch'],
 	investment:[],
-	special_earning: ['Drop Download - File share Earn','Shareus','MoneyTag - Web Monetize','A-ADS','Adsterra ad-net'],
+	special_earning: ['Drop Download - File share Earn','Shareus - link share Earn','MoneyTag - Web Monetize','A-ADS Advertise & Publish','Adsterra ad-net'],
 }
 
 /*

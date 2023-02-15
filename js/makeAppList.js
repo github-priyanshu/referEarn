@@ -1,6 +1,18 @@
-showApp(referApps);
-function showApp(list){
+if(catPage){
+	var validApps=category[catPage];
+	var catApp=[];
+	for(let val of referApps){
+		if(validApps.includes(val[0])){
+			catApp.push(val);
+		}
+	}
+	showApp(catApp);
+}else{
+	showApp(referApps);
+}
+function showApp(list,random=false){
 	var html="";
+	var i=0;
 
 	for(let i=0; i<list.length; i++){
 		var val=list[i];
