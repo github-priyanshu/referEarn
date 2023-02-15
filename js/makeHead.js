@@ -139,12 +139,12 @@ function getExpandedHeader(){
 </div>`
 }
 
-// function scrollBanner() {
+function scrollBanner() {
   var url=document.URL.split('/');
   catPage=url[url.length-1];
   catPage=catPage?catPage:url[url.length-2];
   catPage=catPage.replace(".html",'');
-  if(catPage!='index' && catPage){
+  if(catPage!='index' && catPage && !document.baseURI.includes(catPage)){
     banBox=op(".bannerBx");
     bannerWidth=banBox.offsetWidth;
     var tarElem=op(`.banner img[alt^='${catPage}']`).offsetParent.offsetParent;
@@ -154,5 +154,5 @@ function getExpandedHeader(){
   }else{
     catPage=null;
   }
-// }
-// scrollBanner();
+}
+scrollBanner();
