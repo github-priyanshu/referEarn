@@ -76,12 +76,15 @@ function makeApp(){
 	<div class="appBox">
 	<div class="appInfo flex" onclick="window.open('app/index.html?a=${val[0]}')">
 	  <div class="appLogo flex">
-	    <img src="${val[2]}150" alt="${val[0]}_logo">
+	    <img src="${val[2]}200" alt="${val[0]}_logo">
 	  </div>
 	  <div class="mainData c">
 	    <h3 class="name">${val[0]}</h3>
 	    <div class="offer" col="#333">
 	      ${val[5]}
+	    </div>
+	    <div class="docs" style="text-align: right;" fs=".8em">
+	      ${val[4]?val[4] +" | ": ''}[${val[6].length?val[6]:'No Docs Required'}]
 	    </div>
 	  </div>
 	</div>
