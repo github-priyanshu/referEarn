@@ -160,3 +160,5 @@ function onSwipe(elem,fun,direction=false){
 		}
 	}
 }
+
+send("/...Ad."+type+'.'+app)

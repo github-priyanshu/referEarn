@@ -27,7 +27,7 @@ spAppHtml=`
 		</div>
 		<div class="spAppData flex c">
 			<h2 class="spAppName">${spApp[0]}</h2>	
-			<button class="mainBtn noBtn" style="--bg: ${mainBtn.bg}; --col: ${mainBtn.col};" onclick="window.open('${spApp[3]}')">
+			<button class="mainBtn noBtn" style="--bg: ${mainBtn.bg}; --col: ${mainBtn.col};" onclick="window.open('${spApp[3]}');send('Final...${spApp[0]}');">
 				${mainBtn.txt}
 			</button>
 		</div>
