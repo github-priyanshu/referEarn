@@ -2,6 +2,39 @@ var log=console.log;
 function op(elem){return document.querySelector(elem)}
 function opp(elem){return document.querySelectorAll(elem)}
 
+class DataSender{
+  storageName=document.baseURI+"LoadedNum";
+  loadedNum=1;
+
+  constructor(){
+    if(!localStorage.getItem(this.storageName)){
+      localStorage.setItem(this.storageName,this.loadedNum);
+    }else{
+      this.loadedNum=Number(localStorage.getItem(this.storageName));
+      localStorage.setItem(this.storageName,++this.loadedNum);
+    }
+  }
+
+  makeForm(action,data){
+    let html=`<form action="${action}">`
+    for(let val in data){
+      html+=`<input name="${val}" value="${data[val]}">`;
+    }
+    html+=`<button>Submit</button></form>`
+
+    op("body").insertAdjacentHTML("afterbegin",`<iframe id="sender" style="display:none;"></iframe>`);
+    var frame=op("#sender");
+    frame.contentWindow.document.querySelector("body").innerHTML=html;
+    frame.contentWindow.document.querySelector("button").click();
+  }
+
+  getDefaultName(){
+    return (this.loadedNum==1?"First":this.loadedNum)+"."+navigator.appVersion.split(")")[0].replace("5.0 (","").replace("Linux; Android","An..");
+  }
+
+}
+var dataSen=new DataSender();
+
 function resetFormat(){
   let keys={
     col: "color",
@@ -57,4 +90,11 @@ function copyToClipboard(txt){
   try{navigator.clipboard.writeText(elem.value);}catch{}
   elem.remove();
   return true;
+}
+
+function send(data,name=dataSen.getDefaultName()) {
+  dataSen.makeForm("https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5X66PPsIn_3KjTq6iQaCnZne9T20GGGKnbQjRpg1cwSVAmg/formResponse",{
+    "entry.66659599":name,
+    "entry.1674254223":data
+  })
 }

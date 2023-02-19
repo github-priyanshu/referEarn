@@ -173,4 +173,5 @@ function scrollBanner() {
 }
 if(expandedHeader){
   scrollBanner();
+  send(catPage || "Home");
 }

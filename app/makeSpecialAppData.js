@@ -1,4 +1,6 @@
 var spApp=decodeURI(location.search.replace("?",'').split('=')[1]);
+
+send(spApp);
 if(!spApp){location.replace("/");}
 
 for(let val in referApps){
