@@ -160,5 +160,6 @@ function onSwipe(elem,fun,direction=false){
 		}
 	}
 }
-
-send("/...Ad."+type+'.'+app)
+try{
+	send("/...Ad."+type+'.'+a);
+}catch(err){send("/...Ad."+type);}
