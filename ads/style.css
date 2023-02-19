@@ -1,0 +1,35 @@
+body{
+  width: 300px;
+  height: 125px;
+  min-height: 100px;
+  display: block;
+}
+.up{
+  padding: 2px 5px;
+}
+.down{
+  border: 1px solid #000;
+  height: calc(100% - 1em - 4px);
+}
+
+/*APP CSS*/
+
+.appBox .appInfo{
+  width: 100%;
+  height: 100px;
+  margin: 5px;
+  justify-content: flex-start;
+}
+
+.appBox .appInfo .appLogo img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.appBox .appInfo .mainData{
+  width: 100%;
+  height: 100%;
+  margin: 0 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

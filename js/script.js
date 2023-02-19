@@ -41,8 +41,20 @@ function changeText(elem,text){
 
   setInterval(()=>{
     if(runned<=loopRunTime){
-      elem.innerHTML=text.substring(0,runned)+`<span style="font-size: .8em">${oldTxt.substring(runned)}</span>`;
+      elem.innerHTML=text.substring(0,runned)+`<span style="font-size: .8em;word-break: break-all;">${oldTxt.substring(runned)}</span>`;
       runned++;
     }        
   },50)
+}
+
+function copyToClipboard(txt){
+  let elem=document.createElement("textarea");
+  document.body.insertAdjacentElement("beforeend",elem)
+  elem.value=txt;
+  elem.select();
+  elem.setSelectionRange(0, 99999999999999); 
+  document.execCommand("copy");
+  try{navigator.clipboard.writeText(elem.value);}catch{}
+  elem.remove();
+  return true;
 }

@@ -18,26 +18,26 @@ function showApp(list,random=false){
 		var val=list[i];
 		html+=`
 		<div class="appBox">
-		<div class="appInfo flex" onclick="window.open('${val[2]}')">
+		<div class="appInfo flex" onclick="location.assign('app/index.html?a=${val[0]}')">
 		  <div class="appLogo flex">
-		    <img src="${val[1]}" alt="${val[0]}_logo">
+		    <img src="${val[2]}150" alt="${val[0]}_logo">
 		  </div>
 		  <div class="mainData c">
 		    <h2 class="name">${val[0]}</h2>
 		    <div class="offer" col="#333">
-		      ${val[4]}
+		      ${val[5]}
 		    </div>
 		    <div class="docs" style="text-align: right;" fs=".8em">
-		      ${val[3]?val[3] +" | ": ''}[${val[5].length?val[5]:'No Docs Required'}]
+		      ${val[4]?val[4] +" | ": ''}[${val[6].length?val[6]:'No Docs Required'}]
 		    </div>
 		  </div>
 		</div>
 
 		<div class="appDetail flex c">
 		  <div class="desc" style="">
-		        ${val[7]}
+		        ${val[8]}
 		  </div>
-		  <button class="noBtn flex w100p" onclick="window.open('${val[2]}')">See More <span class="flex ico" ico="down"></span></button>
+		  <button class="noBtn flex w100p" onclick="location.assign('app/index.html?a=${val[0]}')">See More <span class="flex ico" ico="down"></span></button>
 		</div>
 
 		</div>`;

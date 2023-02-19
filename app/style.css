@@ -1,0 +1,129 @@
+.appParent{
+  
+}
+.appParent .fr{
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 0 20px;
+  
+  
+  background: #f1f1ff;
+  width: max-content;
+  border-radius: 15px;
+  padding: 10px;
+/*   box-shadow: 0 5px 50px #0004; */
+  width: 90%;
+  max-width: 400px
+}
+.appParent .fr.f1{
+  border: 10px solid #f1f1ff;
+  background: #fff;
+  padding-top: 30px;
+}
+.appParent .fr .spAppImg img{
+  width: 250px;
+  aspect-ratio: 1/1;
+  border-radius: 20px;
+}
+.appParent .fr .spAppData{
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+.appParent .fr .spAppData .mainBtn{
+  width: 250px;
+  height: 40px;
+  background: var(--bg);
+  color: var(--col);
+  border-radius: 3px;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+.appParent .fr.f2{
+  
+}
+.appParent .fr table tr{
+  line-height: 2em;
+}
+
+.appParent .fr table tr th{
+  text-align: left;
+  padding: 10px 20px;
+  border-radius: 10px 0 0 10px;
+  background: #fff;
+  font-family: Offside;
+}
+.appParent .fr table tr th::after{
+  content: '';
+  position: absolute;
+  right: -1px;
+  top: 25%;
+  width: 1px;
+  height: 50%;
+  background: #999;
+}
+.appParent .fr table tr td{
+  padding: 10px 20px;
+  border-radius: 0 10px 10px 0;
+  background: #fff;
+}
+
+.appParent .fr.f3{
+  max-width: 100%;
+  line-height: 1.8em;
+}
+.appParent .fr.f3 > *{
+  margin: 10px 0;
+}
+.appParent .fr.f3 > ol,
+.appParent .fr.f3 > ul{
+  margin-left: 34px;
+}
+.appParent .fr.f3 li{
+  margin: 10px 0;
+}
+
+/* REC APP */
+.recAppDad{
+  width: 100%;
+}
+.recAppPan{
+  width: 100%;
+  justify-content: flex-start;
+  scrollbar-width: none;
+  overflow: auto;
+}
+.recAppDad::after,
+.recAppDad::before{
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  background: #000;
+  top: 0;
+  background: linear-gradient(-90deg,#0000,#fff);
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.recAppDad::after{
+  left: calc(100% - 40px);
+  background: linear-gradient(90deg,#0000,#fff);
+}
+.recAppPan .recApp2Pan{
+  justify-content: flex-start;
+}
+.recAppPan .recAppBox{
+  display: inline-block;
+  width: 210px;
+  height: 250px;
+  margin: 20px;
+}
+.recAppBox .recImg img{
+  width: 200px;
+  border-radius: 20px;
+  aspect-ratio: 1/1;
+}
+.recAppBox .recImg {
+  margin-bottom: 10px;
+}

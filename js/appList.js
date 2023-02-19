@@ -1,4 +1,4 @@
-var adhar="Adhar card",pan="Pan Card",atm="Atm",bank="bank",website="website",app="app";
+var adhar="Adhar card",pan="Pan Card",atm="Atm",bank="Bank",website="Website",app="Application";
 
 var referApps=[
 /*
@@ -20,7 +20,8 @@ var referApps=[
 	/*====================================== Meesho ====================================*/
 	[
 	'Meesho',
-	'https://play-lh.googleusercontent.com/3yi7Fo-OtJUZ7nAlB8WB0v1WTOdz76Z1kqvuuubhNlHzU9jhP97TnI-6eVThWZMV31A=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/3yi7Fo-OtJUZ7nAlB8WB0v1WTOdz76Z1kqvuuubhNlHzU9jhP97TnI-6eVThWZMV31A=s',
 	'https://meesho.com/invite/LNJCB7395459',
 	'',
 	'25% OFF + ₹350',
@@ -77,7 +78,8 @@ var referApps=[
 	/*====================================== Paytm ====================================*/
 	[
 	'Paytm',
-	'https://play-lh.googleusercontent.com/6_Qan3RBgpJUj0C2ct4l0rKKVdiJgF6vy0ctfWyQ7aN0lBjs78M-1cQUONQSVeo2jfs=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/6_Qan3RBgpJUj0C2ct4l0rKKVdiJgF6vy0ctfWyQ7aN0lBjs78M-1cQUONQSVeo2jfs=s',
 	'https://p.paytm.me/xCTH/jq8uuoj0',
 	'aiplayer',
 	'₹50 + ₹151',
@@ -99,7 +101,6 @@ var referApps=[
 		<li>You get ₹100.</li>
 	</ul>
 	<h1>Less User. More Money</h1>
-	;
 
 	<ol>
 		<div class="step_h"><strong>Terms & Conditions</strong></div>
@@ -127,7 +128,8 @@ var referApps=[
 	/*====================================== Snapdeal ====================================*/
 	[
 	'Snapdeal',
-	'https://play-lh.googleusercontent.com/mus3LmDNKHikDOJHIoyaOuYO_K_TgasrHKKKWLQCvksn6vRN32rNN9PYhwptrFWwmnc=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/mus3LmDNKHikDOJHIoyaOuYO_K_TgasrHKKKWLQCvksn6vRN32rNN9PYhwptrFWwmnc=s',
 	'https://snpdl.in/refer?code=PRIY9948UQ&utm_source=RefA1',
 	'PRIY9948UQ',
 	'₹125 + ₹125',
@@ -169,7 +171,8 @@ var referApps=[
 	/*====================================== CashKaro ====================================*/
 	[
 	'CashKaro',
-	'https://play-lh.googleusercontent.com/Mu6eDEbbDf2d4f_rVIPkx9eG5QNfBU0eaCcNQgzuSj5GH3FQ8NxeRJjTx4BQl5SG_4w=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/Mu6eDEbbDf2d4f_rVIPkx9eG5QNfBU0eaCcNQgzuSj5GH3FQ8NxeRJjTx4BQl5SG_4w=s',
 	'https://play.google.com/store/apps/details?id=com.cashkaro&referrer=r%3D19585273%26refname%3DPriyanshu Kumar%26utm_source%3Dapp_referral',
 	'CK60',
 	'₹60 + Lifetime 10% Earning',
@@ -199,7 +202,8 @@ var referApps=[
 	/*====================================== RozDhan ====================================*/
 	[
 	'RozDhan',
-	'https://play-lh.googleusercontent.com/iK0KR3gsQqMZOwc4-ImTvNcu-q_WqO_Lr4pmLjco9WbFJ1BEVurhiDliHxiTlEEGc7sf=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/iK0KR3gsQqMZOwc4-ImTvNcu-q_WqO_Lr4pmLjco9WbFJ1BEVurhiDliHxiTlEEGc7sf=s',
 	'https://play.google.com/store/apps/details?id=com.cashkaro&referrer=r%3D19585273%26refname%3DPriyanshu%20Kumar%26utm_source%3Dapp_referral',
 	'',
 	'₹55 - ₹100 + ₹6',
@@ -235,7 +239,8 @@ var referApps=[
 	/*====================================== MobiKwik ====================================
 	[
 	'MobiKwik',
-	'https://play-lh.googleusercontent.com/WvOdfNjs3hNB8I3NiJyeCfB90mnra9GmsBUK60RuD92xOBgHctVGbMvBGJeOYbKAg5I=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/WvOdfNjs3hNB8I3NiJyeCfB90mnra9GmsBUK60RuD92xOBgHctVGbMvBGJeOYbKAg5I=s',
 	'https://p.paytm.me/xCTH/jq8uuoj0',//change here
 	'',
 	'₹25 + ₹75',
@@ -257,7 +262,6 @@ var referApps=[
 		<li>You get ₹75.</li>
 	</ul>
 	<h1>Less popular app = More Money</h1>
-	;
 
 	<strong>Rules:</strong>
 
@@ -278,7 +282,8 @@ var referApps=[
 	/*====================================== PhonePe ====================================*/
 	[
 	'PhonePe',
-	'https://play-lh.googleusercontent.com/6iyA2zVz5PyyMjK5SIxdUhrb7oh9cYVXJ93q6DZkmx07Er1o90PXYeo6mzL4VC2Gj9s=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/6iyA2zVz5PyyMjK5SIxdUhrb7oh9cYVXJ93q6DZkmx07Er1o90PXYeo6mzL4VC2Gj9s=s',
 	'https://phon.pe/727wkmf6',
 	'',
 	'₹10 + ₹100',
@@ -321,7 +326,8 @@ var referApps=[
 	/*====================================== CoinSwitch ====================================*/
 	[
 	'CoinSwitch',
-	'https://play-lh.googleusercontent.com/NpGjw0yK9LHSh8z-7M9AHPMetrK0qaWjpjMzJwEOCSIVlv7pZ3wcU3s0uz6kES6NDqjT=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/NpGjw0yK9LHSh8z-7M9AHPMetrK0qaWjpjMzJwEOCSIVlv7pZ3wcU3s0uz6kES6NDqjT=s',
 	'https://coinswitch.co/in/refer?tag=SsyJ3',
 	'',
 	'₹10 (BTC) + ₹400 (BTC)',
@@ -330,7 +336,7 @@ var referApps=[
 	`<ul>
 		<li>Install the app from <strong>above button</strong>.</li>
 		<li>Just make account.</li>
-		<li>Add do KYC.</li>
+		<li>Add KYC documentation online.</li>
 		<li>Add your bank details.</li>
 		<li>You will get BitCoin of ₹10 invested.</li>
 	</ul>
@@ -342,11 +348,8 @@ var referApps=[
 		<li>Install CoinSwitch app.</li>
 		<li>Make account.</li>
 		<li>When he adds the bank detail then you get ₹50 BitCoin.</li>
-		<li>Apply your refferal code like <aiplayer>.</li>
-		<li>You get ₹100.</li>
 	</ul>
 	<h1>Less User. More Money</h1>
-	;
 
 	<p>Get ₹50 BTC wen you friend completes Bank verification. Also, you'll earn ₹200 when the buy their first crypto worth more than ₹1000, of ₹350 when their first buy is worth more than ₹5000</p>
 `,
@@ -359,7 +362,8 @@ var referApps=[
 	/*====================================== EarnKaro ====================================*/
 	[
 	'EarnKaro : Ratan Tata',
-	'https://play-lh.googleusercontent.com/aFjyP5VFedNrohp7C2rZBHXvwPvyRwMIj8G80h5FA9GcmYVGSXncj6kCQOXN9TJ-Ww=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/aFjyP5VFedNrohp7C2rZBHXvwPvyRwMIj8G80h5FA9GcmYVGSXncj6kCQOXN9TJ-Ww=s',
 	'https://play.google.com/store/apps/details?id=com.earnkaro&referrer=r%3D1436639%26refname%3DPriyanshu%20Kumar%26utm_source%3Dapp_referral',
 	'',
 	'₹0 + Lifetime 10% Earning',
@@ -392,7 +396,8 @@ var referApps=[
 	/*====================================== Kuku FM ====================================*/
 	[
 	'Kuku FM',
-	'https://play-lh.googleusercontent.com/ZT-JBZI6eq4FbFk8OqIAxx7URFvOCklsv82m3ufi3FeaFnaWwijTp2IfdNGESnEAMQ=s150',
+	'playstore',
+	'https://play-lh.googleusercontent.com/ZT-JBZI6eq4FbFk8OqIAxx7URFvOCklsv82m3ufi3FeaFnaWwijTp2IfdNGESnEAMQ=s',
 	'https://kukufm.page.link/bbRXNCb39YNmFEvT8',
 	'',
 	'Flat ₹200 OFF + ₹100',
@@ -427,7 +432,8 @@ var referApps=[
 	/*====================================== Propellar Ads ====================================*/
 	[
 	'MoneyTag - Web Monetize',
-	'https://play-lh.googleusercontent.com/VwLow4umwRYkSFduc3SjDLoU9vTaAcmTzsTKom5XITRRBWH7gCofiKynu1ZHRuuJpw=s150',
+	'web',
+	'https://play-lh.googleusercontent.com/VwLow4umwRYkSFduc3SjDLoU9vTaAcmTzsTKom5XITRRBWH7gCofiKynu1ZHRuuJpw=s',
 	'https://monetag.com/?ref_id=mPgy',
 	'',
 	'Earn with ads + 5%',
@@ -459,7 +465,8 @@ var referApps=[
 	/*====================================== Adsterra ad-net ====================================*/
 	[
 	'Adsterra ad-net',
-	'https://play-lh.googleusercontent.com/PNxmddPBpgH0zLjNU8PuuspHpU9odxE26aDFTnp67tI6Oz6dyiRit03sT1i55OTF0IM=s150',
+	'web',
+	'https://play-lh.googleusercontent.com/PNxmddPBpgH0zLjNU8PuuspHpU9odxE26aDFTnp67tI6Oz6dyiRit03sT1i55OTF0IM=s',
 	'https://publishers.adsterra.com/referral/Sa7E49FL8T',
 	'',
 	'Earn with ads + 5%',
@@ -491,7 +498,8 @@ var referApps=[
 	/*====================================== a-ads ====================================*/
 	[
 	'A-ADS Advertise & Publish',
-	'https://play-lh.googleusercontent.com/h5EuJMaAnhZFuL0ymD1BbOscn-D9es_gvNVFEhnKkaUjDeR4aM-oNhACJGuW39xxxMc=s150',
+	'web',
+	'https://play-lh.googleusercontent.com/h5EuJMaAnhZFuL0ymD1BbOscn-D9es_gvNVFEhnKkaUjDeR4aM-oNhACJGuW39xxxMc=s',
 	'https://a-ads.com?partner=2169766',
 	'',
 	'Earn with ads + 50%',
@@ -523,6 +531,7 @@ var referApps=[
 	/*====================================== Drop.Download ====================================*/
 	[
 	'Drop Download - File share Earn',
+	'web',
 	'https://drop.download/assets_drop/images/logo.svg',
 	'https://drop.download/free289868.html',
 	'',
@@ -553,6 +562,7 @@ var referApps=[
 	/*====================================== Shareus ====================================*/
 	[
 	'Shareus - link share Earn',
+	'web',
 	'https://shareus.io/pub/share.png',
 	'https://shareus.io/pub/signup.html?id=NRCMV9OAt2fj2BHqZCOIIGgQKOd2',
 	'',
@@ -580,12 +590,22 @@ var referApps=[
 
 ]
 
-var category={
+var categoryLength=6,
+category={
 	teenager_special: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro : Ratan Tata"],
 	shopping: ['Meesho',"Snapdeal","CashKaro","EarnKaro : Ratan Tata"],
+	UPI_Banking: ["Paytm","PhonePe"],
 	cryptocurrency:['CoinSwitch'],
 	investment:[],
 	special_earning: ['Drop Download - File share Earn','Shareus - link share Earn','MoneyTag - Web Monetize','A-ADS Advertise & Publish','Adsterra ad-net'],
+};
+
+function getAppDetailByName(appX){
+	for(let val of referApps){
+		if(val[0]==appX){
+			return val;
+		}
+	}
 }
 
 /*

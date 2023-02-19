@@ -1,5 +1,10 @@
-var expandedHeader=true,
-bannerWidth,bannerImageWidth,banBox,catPage;
+var bannerWidth,bannerImageWidth,banBox,catPage;
+
+try{
+  expandedHeader;
+}catch(err){
+  eval("var expandedHeader=true");
+}
 
 document.body.insertAdjacentHTML('afterbegin',`
   <style>
@@ -74,69 +79,73 @@ setInterval(changeMoto,5000);
 
 
 function getExpandedHeader(){
-  var banHtml="",
-  bannerWidth=op('body').offsetWidth-50;
-  bannerWidth=bannerWidth>600?600:bannerWidth;
-  var banHeight=bannerWidth*60/140;
-  bannerImageWidth=(banHeight-20)*2;
+  if(expandedHeader){
+    var banHtml="",
+    bannerWidth=op('body').offsetWidth-50;
+    bannerWidth=bannerWidth>600?600:bannerWidth;
+    var banHeight=bannerWidth*60/140;
+    bannerImageWidth=(banHeight-20)*2;
 
-  for(let val in category){
-    banHtml+=`
-        <div class="banner flex">
-          <a href="category/${val}.html"><img src="img/banner/${val}.png" alt="${val} banner"></a>
-        </div>`
-  };
+    for(let val in category){
+      banHtml+=`
+          <div class="banner flex">
+            <a href="category/${val}.html"><img src="img/banner/${val}.png" alt="${val} banner"></a>
+          </div>`
+    };
 
-  return `
-<style>
-.bannerBx::-moz-scrollbar {
-    width: 0;
-    height: 0;
-}
-.bannerBx{
-  width: ${bannerWidth}px;
-  aspect-ratio: 140/60;
-  border-radius: 10px;
-  overflow-x: auto;
-  justify-content: flex-start;
-  scrollbar-width: none;
+    return `
+  <style>
+  .bannerBx::-moz-scrollbar {
+      width: 0;
+      height: 0;
+  }
+  .bannerBx{
+    width: ${bannerWidth}px;
+    aspect-ratio: 140/60;
+    border-radius: 10px;
+    overflow-x: auto;
+    justify-content: flex-start;
+    scrollbar-width: none;
 
-}
-.bannerBx .banner img{
-  height: ${banHeight- 20}px;
-  aspect-ratio: 2/1;
-  object-fit: cover;
-  border-radius: 10px;
-  margin: 0 10px;
-}
+  }
+  .bannerBx .banner img{
+    height: ${banHeight- 20}px;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 10px;
+  }
 
-.bannerParent::after,
-.bannerParent::before{
-  content: '';
-  position: absolute;
-  width: 3px;
-  height: 100%;
-  z-index: 1;
-  background: #fff;
-  left: 0;
-  top: 0;
-  background: linear-gradient(90deg,#222,#0000);
-  background: #0099ff;
-  border-radius: 4px;
-  box-shadow: 0 0 30px #09f,0 0 30px #09f,0 0 30px #09f;
-}
+  .bannerParent::after,
+  .bannerParent::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    z-index: 1;
+    background: #fff;
+    left: 0;
+    top: 0;
+    background: linear-gradient(90deg,#222,#0000);
+    background: #0099ff;
+    border-radius: 4px;
+    box-shadow: 0 0 30px #09f,0 0 30px #09f,0 0 30px #09f;
+  }
 
-.bannerParent::after{
-  left: calc(100%);
-/*  background: linear-gradient(-90deg,#222,#0000); */
-}
-</style>
+  .bannerParent::after{
+    left: calc(100%);
+  /*  background: linear-gradient(-90deg,#222,#0000); */
+  }
+  </style>
 
-<div class="bannerParent" style="width: max-content; height:max-content; margin-bottom: 20px;">
-  <div class="bannerBx flex">
-    ${banHtml}
-  </div>
-</div>`
+  <div class="bannerParent" style="width: max-content; height:max-content; margin-bottom: 20px;">
+    <div class="bannerBx flex">
+      ${banHtml}
+    </div>
+  </div>`
+  }else{
+    return '';
+  }
 }
 
 function scrollBanner() {
@@ -150,9 +159,11 @@ function scrollBanner() {
     var tarElem=op(`.banner img[alt^='${catPage}']`).offsetParent.offsetParent;
     var scrx=tarElem.offsetLeft-(banBox.offsetWidth - tarElem.offsetWidth)/2;
 
-    log(banBox.scrollTo(scrx,0));
+    banBox.scrollTo(scrx,0);
   }else{
     catPage=null;
   }
 }
-scrollBanner();
+if(expandedHeader){
+  scrollBanner();
+}
