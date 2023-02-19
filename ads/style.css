@@ -1,30 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&family=Poppins&display=swap');
+
 body{
   width: 300px;
   height: 125px;
   min-height: 100px;
   display: block;
+  border-radius: 100px;
+  overflow: hidden;
 }
 .up{
-  padding: 2px 5px;
+  padding: 0px 5px;
+  font-family: Offside;
+  font-weight: bolder;
 }
 .down{
-  border: 1px solid #000;
   height: calc(100% - 1em - 4px);
+  background: #fff;
+  border-radius: 10px;
+  font-family: Poppins;
 }
 
 /*APP CSS*/
 
 .appBox .appInfo{
   width: 100%;
-  height: 100px;
-  margin: 5px;
+  height: 100%;
+  margin: 0 5px;
   justify-content: flex-start;
 }
 
 .appBox .appInfo .appLogo img{
-  width: 100px;
   height: 100px;
   border-radius: 10px;
+  aspect-ratio: 1/1;
 }
 .appBox .appInfo .mainData{
   width: 100%;

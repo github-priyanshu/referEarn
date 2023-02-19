@@ -91,7 +91,7 @@ function makeApp(){
 
 function hidden(){
 	document.body.insertAdjacentHTML('beforeend',`
-		<div class="hide flex c" style="position: absolute;transition: all 1s; top: 0; width: 100%; height: 100%; background: #fff;" onclick="this.style.opacity=0; this.style.pointerEvents='none';">
+		<div class="hide flex c" style="font-family: Poppins; position: absolute;transition: all 1s; top: 0; width: 100%; height: 100%; background: #fff;" onclick="this.style.opacity=0; this.style.pointerEvents='none';">
 			<p>Tap To See..!!</p>
 			<div class="lineMargin" m="2px"></div>
 			<h2>A Hidden Offer</h2>
