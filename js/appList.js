@@ -594,7 +594,7 @@ var categoryLength=6,
 category={
 	teenager_special: ["Snapdeal","Meesho","RozDhan","CashKaro","EarnKaro : Ratan Tata"],
 	shopping: ['Meesho',"Snapdeal","CashKaro","EarnKaro : Ratan Tata"],
-	UPI_Banking: ["Paytm","PhonePe"],
+	upi_banking: ["Paytm","PhonePe"],
 	cryptocurrency:['CoinSwitch'],
 	investment:[],
 	special_earning: ['Drop Download - File share Earn','Shareus - link share Earn','MoneyTag - Web Monetize','A-ADS Advertise & Publish','Adsterra ad-net'],
