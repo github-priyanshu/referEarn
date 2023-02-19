@@ -106,7 +106,14 @@ function getExpandedHeader(){
     overflow-x: auto;
     justify-content: flex-start;
     scrollbar-width: none;
-
+  }
+  
+  .bannerBx ::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }.bannerBx ::-moz-scrollbar{
+    width: 0;
+    height: 0;
   }
   .bannerBx .banner img{
     height: ${banHeight- 20}px;
