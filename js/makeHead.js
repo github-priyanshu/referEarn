@@ -53,11 +53,11 @@ document.body.insertAdjacentHTML('afterbegin',`
           <h1 ff="Offside">MoneY NOW</h1>
         </a>
       </div>
-      <div class="search flex">
+      <!---<div class="search flex">
         <input type="text" placeholder="Search...!!!" id='search' >
         <div class="lineMargin" w='1px' h='30px' bg='#aaa'></div>
         <div fill="#555" ico="search" class="ico flex"></div>
-      </div>
+      </div>--->
     </div>
     <div class="fr down flex c">
       ${getExpandedHeader()}

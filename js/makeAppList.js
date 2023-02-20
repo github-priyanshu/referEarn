@@ -11,7 +11,7 @@ if(catPage){
 	showApp(referApps);
 }
 function showApp(list,random=false){
-	var html="";
+	var html=``;
 	var i=0;
 
 	for(let i=0; i<list.length; i++){
@@ -32,12 +32,15 @@ function showApp(list,random=false){
 		    </div>
 		  </div>
 		</div>
-
+		<div class="lineMargin" w="100%" h="1px" bg="#ddd"></div>
 		<div class="appDetail flex c">
-		  <div class="desc" style="">
-		        ${val[8]}
+		  <!---<div class="desc" style="">
+		        {val[8]}
+		  </div>--->
+		  <div class="btnPan flex w100p">
+			  <button class="noBtn flex w100p" style="background: #fff;" onclick="location.assign('app/index.html?a=${val[0]}')">Detail</button>
+			  <button class="noBtn flex w100p" style="background: #00a173; color: #fff;" onclick="window.open('${val[3]}')">Install</button>
 		  </div>
-		  <button class="noBtn flex w100p" onclick="location.assign('app/index.html?a=${val[0]}')">See More <span class="flex ico" ico="down"></span></button>
 		</div>
 
 		</div>`;

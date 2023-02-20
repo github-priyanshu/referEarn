@@ -563,7 +563,7 @@ var referApps=[
 	[
 	'Shareus - link share Earn',
 	'web',
-	'https://shareus.io/pub/share.png',
+	'https://i0.wp.com/shareus.io/wp-content/uploads/2021/12/Share-Us-Logo-PNG.png?w=512&ssl=1',
 	'https://shareus.io/pub/signup.html?id=NRCMV9OAt2fj2BHqZCOIIGgQKOd2',
 	'',
 	'Link share + 10%',

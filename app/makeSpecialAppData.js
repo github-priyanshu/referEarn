@@ -56,10 +56,36 @@ spAppHtml=`
 			</tbody>
 		</table>
 	</div>
-
-	<div class="fr f3">
+	<style>
+		.fr.f3{
+			max-height: 80vh;
+			overflow: hidden;
+		}
+		.fr.f3 .btnPan{
+			position: absolute;
+			bottom: 0px;
+			width: 100%;
+			margin: 0;
+			background: #f1f1ff;
+			left: 0;
+			border-radius:0 0 10px 10px;
+			border-top: 1px solid #ddd;
+		}
+		.fr.f3 .btnPan::after{
+			width: 100%;
+			height: 50px;
+			background: linear-gradient(#0000,#f1f1ff);
+			content:'';
+			position: absolute;
+			top: -50px;
+		}
+	</style>
+	<div class="fr f3" id="detailBox">
 		<h1>Detail</h1>
 		${spApp[8]}
+		<div class="btnPan flex">
+			<button class="noBtn flex w100p" onclick="op('#detailBox').style.overflow='auto';this.parentElement.remove();">See More <span class="ico" fill="#777" ico="down"></span></button>
+		</div>
 	</div>
 
 </div>

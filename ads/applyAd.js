@@ -160,6 +160,8 @@ function onSwipe(elem,fun,direction=false){
 		}
 	}
 }
-try{
-	send("/...Ad."+type+'.'+a);
-}catch(err){send("/...Ad."+type);}
+document.onclick=()=>{
+	try{
+		send("/...Ad."+type+'.'+a);
+	}catch(err){send("/...Ad."+type);}
+}
