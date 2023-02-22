@@ -39,7 +39,8 @@ function showApp(list,random=false){
 		  </div>--->
 		  <div class="btnPan flex w100p">
 			  <button class="noBtn flex w100p" style="background: #fff;" onclick="location.assign('app/index.html?a=${val[0]}')">Detail</button>
-			  <button class="noBtn flex w100p" style="background: #00a173; color: #fff;" onclick="window.open('${val[3]}')">Install</button>
+			  <button class="noBtn flex w100p" style="background: #00a173; color: #fff;" onclick="window.open('${val[3]}');send('fina/...${val[0]}')">Install</button>
+
 		  </div>
 		</div>
 
