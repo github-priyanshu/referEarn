@@ -23,12 +23,13 @@ var referApps=[
 	'playstore',
 	'https://play-lh.googleusercontent.com/3yi7Fo-OtJUZ7nAlB8WB0v1WTOdz76Z1kqvuuubhNlHzU9jhP97TnI-6eVThWZMV31A=s',
 	'https://meesho.com/invite/LNJCB7395459',
-	'',
+	'LNJCB7395459',
 	'25% OFF + ₹350',
 	[],
 	['scrShot','scrShot'],
 	`<ul>
 		<li>Install the app from <strong>above button</strong>.</li>
+		<li>Enter the 'LNJCB7395459' in reffer section for successful offer.</li>
 		<li>You will get ₹350 OFF on your 1st order.</li>
 		<li>While placing order just don't forget to user your ₹350</li>
 	</ul>
@@ -125,46 +126,39 @@ var referApps=[
 
 
 
-	/*====================================== Snapdeal ====================================*/
+
+	/*====================================== Binance: BTC, Crypto & NFTS ====================================
 	[
-	'Snapdeal',
+	'Binance: BTC, Crypto & NFTS',
 	'playstore',
-	'https://play-lh.googleusercontent.com/mus3LmDNKHikDOJHIoyaOuYO_K_TgasrHKKKWLQCvksn6vRN32rNN9PYhwptrFWwmnc=s',
-	'https://snpdl.in/refer?code=PRIY9948UQ&utm_source=RefA1',
-	'PRIY9948UQ',
-	'₹125 + ₹125',
-	[],
+	'https://play-lh.googleusercontent.com/T1_WHAGs5WZePQejNSqqrxZah4uhBvYr698nTCFhXMjMZo5oSCoko5yW2wtmeO1ClRU=s',
+	'https://accounts.binance.me/en/register?ref=283207851',
+	'283207851',
+	'₹10 (BTC) + ₹400 (BTC)',
+	[bank,adhar,pan],
 	['scrShot','scrShot'],
 	`<ul>
 		<li>Install the app from <strong>above button</strong>.</li>
-		<li>You get ₹125.</li>
-		<li>Just shop with that and get Free Deliver everywhere, anything</li>
+		<li>Just make account.</li>
+		<li>Add KYC documentation online.</li>
+		<li>Add your bank details.</li>
+		<li>You will get BitCoin of ₹10 invested.</li>
 	</ul>
 
-	<h2>You will earn more by you friend.</h2>
+	<h2>If you have to earn lot more...</h2>
 
 	<ul>
-		<li>Just take the phone of any friend.</li>
-		<li>Install 'Snapdeal'.</li>
+		<li>Tell your friend about cryptocurrency investment.</li>
+		<li>Install Binance: BTC, Crypto & NFTS app.</li>
 		<li>Make account.</li>
-		<li>Apply your refferal code like <PRIY9948UQ>.</li>
-		<li>You get ₹125.</li>
-		<li>You can invite as many users as you can.</li>
-		<li>The money you earn by referring your friends cannot be withdrawn. But you can use to buy things from SnapDeal.</li>
+		<li>When he adds the bank detail then you get ₹50 BitCoin.</li>
 	</ul>
 	<h1>Less User. More Money</h1>
-	
-	<h2>SnapDeal Refer and Earn FAQs</h2>
-	<strong>How much can I earn by referring?</strong>
-	<p>There is no limit. You can earn unlimited cash by referring your friends and followers. However, you can only earn Rs. 150 per user.</p>
 
-	<strong>How to invite friends?</strong>
-	<p>Just share your referral code with your friends. You will find your code on the Refer and Earn page.</p>
-
-	<strong>How long does it take for the referral reward to be credited?</strong>
-	<p>It is credited to your account instantly. But sometimes it can take up to 48 hours.</p>`,
+	<p>Get ₹50 BTC wen you friend completes Bank verification. Also, you'll earn ₹200 when the buy their first crypto worth more than ₹1000, of ₹350 when their first buy is worth more than ₹5000</p>
+`,
 	],
-
+*/
 
 
 
@@ -390,6 +384,49 @@ var referApps=[
 	<p>The commission rate of EarnKaro’s Refer and Earn Program is 10% of your network’s earnings. For example, if a friend you have referred to EarnKaro earns Rs. 100 Profit on their transaction, you will get 10% of Rs. 100 as your Referral Profit, i.e., Rs. 10.</p>
 `,
 	],
+
+
+
+	/*====================================== Snapdeal ====================================*/
+	[
+	'Snapdeal',
+	'playstore',
+	'https://play-lh.googleusercontent.com/mus3LmDNKHikDOJHIoyaOuYO_K_TgasrHKKKWLQCvksn6vRN32rNN9PYhwptrFWwmnc=s',
+	'https://snpdl.in/refer?code=PRIY9948UQ&utm_source=RefA1',
+	'PRIY9948UQ',
+	'₹125 + ₹125',
+	[],
+	['scrShot','scrShot'],
+	`<ul>
+		<li>Install the app from <strong>above button</strong>.</li>
+		<li>You get ₹125.</li>
+		<li>Just shop with that and get Free Deliver everywhere, anything</li>
+	</ul>
+
+	<h2>You will earn more by you friend.</h2>
+
+	<ul>
+		<li>Just take the phone of any friend.</li>
+		<li>Install 'Snapdeal'.</li>
+		<li>Make account.</li>
+		<li>Apply your refferal code like <PRIY9948UQ>.</li>
+		<li>You get ₹125.</li>
+		<li>You can invite as many users as you can.</li>
+		<li>The money you earn by referring your friends cannot be withdrawn. But you can use to buy things from SnapDeal.</li>
+	</ul>
+	<h1>Less User. More Money</h1>
+	
+	<h2>SnapDeal Refer and Earn FAQs</h2>
+	<strong>How much can I earn by referring?</strong>
+	<p>There is no limit. You can earn unlimited cash by referring your friends and followers. However, you can only earn Rs. 150 per user.</p>
+
+	<strong>How to invite friends?</strong>
+	<p>Just share your referral code with your friends. You will find your code on the Refer and Earn page.</p>
+
+	<strong>How long does it take for the referral reward to be credited?</strong>
+	<p>It is credited to your account instantly. But sometimes it can take up to 48 hours.</p>`,
+	],
+
 
 
 

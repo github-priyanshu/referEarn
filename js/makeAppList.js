@@ -32,16 +32,15 @@ function showApp(list,random=false){
 		    </div>
 		  </div>
 		</div>
-		<div class="lineMargin" w="100%" h="1px" bg="#ddd"></div>
+		<!---<div class="lineMargin" w="100%" h="1px" bg="#ddd"></div>
 		<div class="appDetail flex c">
-		  <!---<div class="desc" style="">
+		  <div class="desc" style="">
 		        {val[8]}
-		  </div>--->
+		  </div>
 		  <div class="btnPan flex w100p">
 			  <button class="noBtn flex w100p" style="background: #fff;" onclick="location.assign('app/index.html?a=${val[0]}')">Detail</button>
 			  <button class="noBtn flex w100p" style="background: #00a173; color: #fff;" onclick="window.open('${val[3]}');send('fina/...${val[0]}')">Install</button>
-
-		  </div>
+		  </div>--->
 		</div>
 
 		</div>`;
