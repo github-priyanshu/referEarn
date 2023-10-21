@@ -1,4 +1,3 @@
-//its just a check
 var log=console.log;
 function op(elem){return document.querySelector(elem)}
 function opp(elem){return document.querySelectorAll(elem)}
